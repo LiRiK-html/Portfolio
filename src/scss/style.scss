@@ -1,0 +1,131 @@
+@import "fonts";
+
+
+//Шрифт по умолчанию=============================================================================================
+ $fontFamily: "";
+ $fontSize: 12px;
+ $lineHeight: 16px;
+
+ $fontSizeTitle: 48px;
+ $lineHeightTitle: 48px;
+
+
+
+
+ //Основной цвет
+ $mainColor: #1F2937;
+
+ $DefaultGray: #6B7280;
+ $DefaultDarkGray: #374151;
+ $DefaultBlue: #3730A3;
+
+
+//Настройки контейнера===========================================================================================
+$maxWidthContainer: 1220px;
+$containerPadding: 20px;
+
+//===============================================================================================================
+
+li{
+	list-style: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	color: $DefaultGray;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+}
+
+.container{
+	max-width: $maxWidthContainer;
+	margin: 0 auto;
+	padding: 0 $containerPadding;
+}
+
+.title{
+	font-size: $fontSizeTitle;
+	line-height: $lineHeightTitle;
+	color: $DefaultDarkGray;
+	font-weight: 600;
+}
+
+.header{
+	padding-top: 85px;
+	margin-bottom: 200px;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav{
+	display: flex;
+	justify-content: space-between;
+	gap: 80px;
+}
+
+.header__item{
+	display: flex;
+	align-items: center;
+	gap: 80px;
+
+	li{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 500;
+	}
+}
+
+.header__btn{
+	color: $DefaultBlue;
+	border: 1px solid $DefaultBlue;
+	border-radius: 6px;
+	padding: 12px 32px;
+	font-weight: 600;
+	line-height: 28px;
+	font-size: 18px;
+}
+
+.footer{
+	padding-top: 110px;
+	margin-bottom: 110px;
+}
+
+.footer__inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__title{
+	margin-bottom: 20px;
+}
+
+.footer__text{
+	width: 664px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 100px;
+}
+
+.footer__item{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 50px;
+}
+
+
+
+
