@@ -57,6 +57,16 @@ body{
 	font-weight: 600;
 }
 
+.button{
+	color: $DefaultBlue;
+	border: 1px solid $DefaultBlue;
+	border-radius: 6px;
+	padding: 12px 32px;
+	font-weight: 600;
+	line-height: 28px;
+	font-size: 18px;
+}
+
 .header{
 	padding-top: 85px;
 	margin-bottom: 200px;
@@ -86,15 +96,67 @@ body{
 	}
 }
 
-.header__btn{
+.creat{
+	margin-bottom: 200px;
+}
+
+.creat__inner{
+	display: flex;
+	gap: 80px;
+}
+
+.creat__author{
 	color: $DefaultBlue;
-	border: 1px solid $DefaultBlue;
-	border-radius: 6px;
-	padding: 12px 32px;
-	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 40px;
+}
+
+.creat__title{
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 700;
+	color:  $mainColor;
+	margin-bottom: 40px;
+}
+
+.creat__text{
 	line-height: 28px;
 	font-size: 18px;
+	color: $DefaultGray;
+	width: 553px;
+	margin-bottom: 40px;
 }
+
+.creat__button{
+	margin-bottom: 20px;
+}
+
+.creat__button-pour{
+	background-color: $DefaultBlue;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.creat__doptext{
+	width: 100%;
+	border-top: 1px solid #E5E7EB;
+	margin-top: 26px;
+	padding-top: 20px;
+}
+
+.creat__img{
+	width: 100%;
+	object-fit: cover;
+}
+
+
+
+
 
 .footer{
 	padding-top: 110px;
